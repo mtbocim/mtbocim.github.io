@@ -50,16 +50,12 @@ header, main, footer
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 37px 18px #000000;
 }
 
-.long-text{
-    text-align: center;
-    font-size: medium;
-}
 .about{
     border: #1e440f 5px;
 }
 
 .home{
-    background-image: url("../images/background-1080.png");
+    background-image: url("images/background-1080.png");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
