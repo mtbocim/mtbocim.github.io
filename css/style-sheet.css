@@ -1,29 +1,25 @@
-
-body{
+body
+{
     background: #679773;   
 }
 
-header{
+.banner
+{
     background:#e0e6e1;
+    height: 175px;
 }
 
-header h1{
-    text-align: left;
-}
-
-nav{
-    text-align: left;
-}
-
-main{
+main
+{
     text-align: center;
-    margin:center;
-    position: relative;
 }
 
-.site-title{
+.site-title
+{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 25px;
+    font-size: 50px;
+    margin-left: 25px;
 }
 
 a, a:link
@@ -32,26 +28,32 @@ a, a:link
     font-weight: bold;
 }
 
-a:visited{
+a:visited
+{
     color:grey;
 }
 
-a:focus, a:hover, a:active{
+a:focus, a:hover, a:active
+{
     color:red;
 }
 
-header, main, footer
+.banner, main, footer
 {
-    margin: 50px;
-    padding: 50px;
+    margin: 25px;
+    padding: 25px;
     border: 5px inset #1e440f;
-    
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 37px 18px #000000; 
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 37px 18px #000000;
 }
 
-.about{
-    border: #1e440f 5px;
+.about-me
+{
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+    width:400px;
+    margin: auto;
 }
 
 .home{
@@ -62,7 +64,6 @@ header, main, footer
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    
 }
 
 .home-text {
@@ -77,7 +78,30 @@ header, main, footer
     border: #000000 3px solid;
     border-radius: 20px;
     padding: 30px;
-    
     opacity: .75;
   }
 
+.my-hamburger {
+    display:inline-flex;
+    margin-left: 25px;
+}
+
+.my-hamburger:hover .nav-dropdown{
+    display:block;
+    margin:10px;
+    width: 15px;
+}
+
+.nav-dropdown {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width:150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: 3px solid;  
+}
+
+.navbar{
+    border: 5px solid;
+    height: 160px;
+}

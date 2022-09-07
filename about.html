@@ -10,39 +10,46 @@
     </head>
     
     <body>
-        <header role="banner">
-            <h1 class="site-title">About Me</h1>
+        <header class="banner" role="banner">
             <nav class="navbar">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="for-fun.html">For fun</a>
-                <a href="contact.html">Contact</a> 
+                <h1 class="site-title">About Me</h1> 
+                <div class = "my-hamburger">
+                    <svg id="hamburger" width=40 height=40>
+                        <rect x=0 y=0 width=40 height=8 />
+                        <rect x=0 y=16 width=40 height=8 />
+                        <text x=0 y=40 textLength=40 height=10>Menu</text>
+                    </svg>
+                    <ul class="nav-dropdown">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="for-fun.html">For fun</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
             </nav>
         </header>     
         
         <main>
-            <div class="about">
-                <h3>A little about myself:</h3>
-                <p>
-                    I've been repairing musical instrument for nearly a decade, 
-                    and looking to move into the programming world. 
-                    I've been dabbling in logic and coding since high school on my ti-83. 
-                    <br><br>
-                    Since then it has manifested in different places throughout my adulthood.
-                    My favorite bit of code I ever wrote was a program I wrote in college for a music theory class. 
-                    It used music rules to generate a text file which was 
-                    then read by a music notation program plugin I also wrote and transcribed into four distinct voices (I'm proud to say I recieved an A on that project). 
-                    <br><br>
-                    In my downtime, I'm 100% a hobbyist, occasional jazz performer, cad drawing to 3d printing creator, 
-                    pc and board gamer, origami folder, nature photographer.
-                    <br><br> 
-                    I think I just like patterns and structure, wherever that may surface, and strive to incorporate them into my life.
-                </p>
-            </div>
-            <div class="pdf">
+            <h2>A little about myself:</h2>
+            <p class="about-me">
+                I've been repairing musical instrument for nearly a decade, 
+                and looking to move into the world of the web. 
+                I've been dabbling in logic and coding since high school on my ti-83. 
+                <br><br>
+                Since then it has manifested in different places throughout my adulthood.
+                My favorite bit of code I ever wrote was a program I wrote in college for a music theory class. 
+                It used music rules to generate a text file which was 
+                then read by a music notation program plugin I also wrote and transcribed into four distinct voices (I'm proud to say I recieved an A on that project). 
+                <br><br>
+                In my downtime, I'm 100% a hobbyist, occasional jazz performer, cad drawing to 3d printing creator, 
+                pc and board gamer, origami folder, nature photographer.
+                <br><br> 
+                I think I just like patterns and structure, wherever that may surface, and strive to incorporate them into my life.
+                <br><br>
                 <a href="documents/Resume.pdf">My resume</a>
-            </div>
+            </p>
         </main>
+
         <footer>
             <p>Copyright Michael Bocim, 2022</p>
         </footer>
