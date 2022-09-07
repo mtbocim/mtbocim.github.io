@@ -81,7 +81,3 @@ header, main, footer
     opacity: .75;
   }
 
-  caption{
-    position: relative;
-    z-index: -1;
-  }
