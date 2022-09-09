@@ -40,14 +40,17 @@ figcaption{
 }
 
 .hamburger:hover rect{
-    width:120px;    
+    width:120px;
+    fill:black;    
     transition: width .5s;
 }
 
 .hamburger:hover .line2{
     width:120px;
     height:275px;
-    transition:width .5s, height .75s;
+    fill:#9db1a2;
+    
+    transition: width .5s, height .75s;
 }
 .hamburger .description{
     opacity:1;
@@ -90,7 +93,7 @@ a, a:link
 
 a:visited
 {
-    color:grey;
+    color:rgb(190, 186, 186);
 }
 
 a:focus, a:hover, a:active
